@@ -1,0 +1,22 @@
+﻿def Eesti():
+  label.configure(text="Olesja-Ojamäe B_234(Estonskiy)",font="times_new_roman 15")
+def Logistik():
+  label.configure(text="Klimanskaja-Inessa B_002(Logistik)",font="times_new_roman 15")
+def Matem():
+  label.configure(text="Voronova-Nadezda B_133(Matematik)",font="times_new_roman 15")
+def Russky():
+  label.configure(text="Mihhailova-Ljudmila B_221(Russky)",font="times_new_roman 15")
+def Programm():
+  label.configure(text="Oleinik-Marina E_korpus07(Programm)",font="times_new_roman 15")
+def Fizika():
+  label.configure(text="Voronova-Nadezda B_133(Fizika)",font="times_new_roman 15")
+def Inglish():
+  label.configure(text="Borodina-Olga B_227(Inglish)",font="times_new_roman 15")
+def Iskustvo():
+  label.configure(text="Norkevitð-Aleksandra B_232 (Iskustvo)",font="times_new_roman 15")
+def Fizra():
+  label.configure(text="Maksõmiv-Maksim Zal_A (Fizra)",font="times_new_roman 15")
+def Rakendus():
+  label.configure(text="Merkulova-Irina E_10(Rakendus)",font="times_new_roman 15")
+label = Label(root)
+label.place(x=800, y=700)
