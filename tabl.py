@@ -37,8 +37,21 @@ def tetverg():
 def patnisa():
     label.configure(text="* rakendus\n * Programmeerimine\n * Inglise keel",font="Arial 20")
 def vremja1():
-    label.configure(text="8-15")
-def 
+    label.configure(text="8.00-9.00",font="Times_New_Roman 35")
+def vremja2():
+    label.configure(text="9.05-10.00",font="Times_New_Roman 35")
+def vremja3():
+    label.configure(text="10.05-11.00",font="Times_New_Roman 35")
+def vremja4():
+    label.configure(text="11.05-12.00",font="Times_New_Roman 35")
+def vremja5():
+    label.configure(text="12.05.-13.00",font="Times_New_Roman 35")
+def vremja6():
+    label.configure(text="13.05-14.00",font="Times_New_Roman 35")
+def vremja7():
+    label.configure(text="14.00-15.00",font="Times_New_Roman 35")
+def vremja8():
+    label.configure(text="15.05-16.00",font="Times_New_Roman 35")
 Label(text="raspisanie Urokov").grid(row=0,column=1,sticky=W+E+N+S)
 Button(text="Понедельник:",command=ponedel).grid(row=1,column=1,sticky=W+E+N+S)
 Button(text="Вторник:",command=vtornik).grid(row=2,column=1,sticky=W+E+N+S)
@@ -46,14 +59,14 @@ Button(text="Среда:",command=sreda).grid(row=3,column=1,sticky=W+E+N+S)
 Button(text="Четверг:",command=tetverg).grid(row=4,column=1,sticky=W+E+N+S)
 Button(text="Пятница:",command=patnisa).grid(row=5,column=1,sticky=W+E+N+S)
 Button(text="0",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=1)
-Button(text="1",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=2)
-Button(text="2",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=3)
-Button(text="3",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=4)
-Button(text="4",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=5)
-Button(text="5",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=6)
-Button(text="6",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=7)
-Button(text="7",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=8)
-Button(text="8",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=9)
+Button(text="1",relief=RIDGE,font="Times_New_Roman 15",command=vremja1).grid(row=0,column=2)
+Button(text="2",relief=RIDGE,font="Times_New_Roman 15",command=vremja2).grid(row=0,column=3)
+Button(text="3",relief=RIDGE,font="Times_New_Roman 15",command=vremja3).grid(row=0,column=4)
+Button(text="4",relief=RIDGE,font="Times_New_Roman 15",command=vremja4).grid(row=0,column=5)
+Button(text="5",relief=RIDGE,font="Times_New_Roman 15",command=vremja5).grid(row=0,column=6)
+Button(text="6",relief=RIDGE,font="Times_New_Roman 15",command=vremja6).grid(row=0,column=7)
+Button(text="7",relief=RIDGE,font="Times_New_Roman 15",command=vremja7).grid(row=0,column=8)
+Button(text="8",relief=RIDGE,font="Times_New_Roman 15",command=vremja8).grid(row=0,column=9)
 Button(text="9",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=10)
 Button(text="10",relief=RIDGE,font="Times_New_Roman 15").grid(row=0,column=11)
 
